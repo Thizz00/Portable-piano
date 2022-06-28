@@ -1,0 +1,43 @@
+class stylesheetclass(object):
+    def stylesWhite(self):
+                return("QPushButton\n"
+                "{\n"
+                "background-color: rgb(255, 255, 255);\n"
+                "border-radius:20px;\n"
+                "}\n"
+                "QPushButton:hover\n"
+                "{\n"
+                "background-color: #193349\n"
+                "}\n"
+                "QPushButton:pressed\n"
+                "{\n"
+                "background-color:#6b4b62\n"
+                "}")
+    def stylesBlack(self):
+                return("QPushButton\n"
+                "{\n"
+                "background-color: rgb(0, 0, 0);\n"
+                "border-radius:10px;\n"
+                "color:white;\n"
+                "}\n"
+                "QPushButton:hover\n"
+                "{\n"
+                "background-color: #193349\n"
+                "}\n"
+                "QPushButton:pressed\n"
+                "{\n"
+                "background-color: #6b4b62;\n"
+                "}")
+    def stylesCloseIcon(self):
+                return("QPushButton{\n"
+                "background-color: rgb(0,0,0,0);\n"
+                "color:white;\n"
+                "}\n"
+                "QPushButton:hover\n"
+                "{\n"
+                "color:rgb(255,140,114);\n"
+                "}\n"
+                "QPushButton:pressed\n"
+                "{\n"
+                "color:rgb(254,243,217)\n"
+                "}")
